@@ -1,0 +1,116 @@
+.cursos {
+    display: flex;
+    flex-direction: column;
+}
+
+.cursos-body {
+    background-color: var(--primary-color);
+    color: var(--text-color-inverse);
+}
+
+.cursos-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 25px;
+}
+
+.curso-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--secundary-color);
+    margin-top: 10px;
+}
+
+.curos-date {
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+
+.curso-plataforma {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.curso {
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media(min-width: 950px) {
+
+    .cursos-title {
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 25px;
+    }
+
+    .curso-name {
+        font-size: 25px;
+        font-weight: bold;
+        color: var(--secundary-color);
+        margin-top: 10px;
+    }
+
+    .curos-date {
+        font-size: 15px;
+        margin-top: 5px;
+
+    }
+
+    .curso-plataforma {
+        font-size: 22px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+
+    .curso {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .left {
+        text-align: right;
+        margin-right: 0;
+    }
+
+    .cursos-grid {
+        display: grid;
+        grid-template-columns: auto 2px auto;
+        gap: 20px 70px;
+        padding: 70px;
+        justify-content: center;
+        max-width: 980px;
+        margin: 0 auto;
+    }
+
+    .line {
+        background-color: var(--text-color-inverse);
+        position: relative;
+    }
+
+    .line::before,
+    .line::after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: var(--text-color-inverse);
+        border-radius: 50%;
+
+        position: absolute;
+        top: -20px;
+        left: -9px;
+    }
+
+    .line::after {
+        top: 100%;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,97 @@
+.contact {
+    background-color: var(--primary-color);
+    width: 100%;
+}
+
+.contact-title {
+    color: var(--text-color-inverse);
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 25px;
+
+}
+
+.redes {
+    display: inline-block;
+}
+
+.ulrs {
+    list-style: none;
+
+}
+
+.rs {
+
+    margin-bottom: 5px;
+    display: inline-block;
+
+}
+
+.rs a {
+    color: var(--text-color-inverse);
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+    width: 100%;
+    cursor: pointer;
+    pointer-events: all;
+    margin-left: -15px;
+
+}
+
+.rs i {
+    margin-right: 15px;
+}
+
+#form {
+    padding: 60px;
+    background-color: var(--primary-color);
+}
+
+#form .form-block {
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+#form .form-block .form-control {
+    display: block;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid var(--secundary-color);
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#form .form-block textarea {
+    display: block;
+    height: 100px;
+    font-size: 16px;
+    border: 1px solid var(--secundary-color);
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#form .form-block.bloque-ultimo {
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.btn-submit {
+    background-color: var(--secundary-color);
+    color: var(--text-color);
+    font-size: 1.5em;
+    padding: 5px;
+
+}
+
+@media(min-width: 950px) {
+
+    #form {
+        max-width: 800px;
+    }
+}
