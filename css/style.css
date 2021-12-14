@@ -8,6 +8,13 @@
     --menu-mobile-background-color: #3A4460;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
 
 body {
     font-family: 'Nunito', sans-serif;
