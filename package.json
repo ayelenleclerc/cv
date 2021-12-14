@@ -1,0 +1,22 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Curriculum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayelenleclerc/cv.git"
+  },
+  "keywords": [
+    "curriculum"
+  ],
+  "author": "Ayelen Leclerc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayelenleclerc/cv/issues"
+  },
+  "homepage": "https://github.com/ayelenleclerc/cv#readme"
+}
